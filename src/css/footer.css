@@ -1,6 +1,41 @@
 footer{
-    background-image: linear-gradient(120deg,#1D2543,#0D111D);
-    background-color: #1D2543;
-    border-top: 1.5px solid #1595F3;
+    background-image: linear-gradient(120deg,#292929,#000000);
+    border-top: 1.5px solid #A1A1A1;
     color: white;
+    padding: 2% 4.5em;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f_left{
+    width: 20%;
+}
+.f_right{
+    flex: 80%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.f_marginLe{
+    margin-left: 20px;
+    width: 20%;
+    background-color: rgba(93, 117, 128, 0.701);
+}
+
+@media screen and (max-width: 600px) {
+    .f_left{
+        width: 100%;
+    }
+    .f_right{
+        width: 100%;
+    }
+    .f_marginLe{
+        margin: 0;
+        margin-top: 16px;
+        width: 100%;
+    }
 }

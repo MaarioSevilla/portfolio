@@ -1,5 +1,15 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+p, h1, h2, h3, h4, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
 }
 .nav-background {
     position: fixed;
@@ -12,11 +22,11 @@ body{
     transition: 0.3s;
 }
 
-/* .nav-blur{
+.nav-blur{
     background: rgba(115, 125, 145, 0.427);
     backdrop-filter: blur(19px);
     -webkit-backdrop-filter: blur(19px);
-} */
+}
 
 .nav-content a {
     text-decoration: none;
@@ -24,7 +34,7 @@ body{
     color: white;
 }
 
-/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .nav-blur {
       -webkit-backdrop-filter: blur(19px);
       backdrop-filter: blur(19px);
@@ -35,7 +45,8 @@ body{
     .nav-blur {
         background-color: rgba(16, 15, 15, 0.947);
     }
-} */
+}
+
 .nav-content{
     display: flex;
     max-width: 88%;
@@ -49,7 +60,7 @@ body{
     /* background-color: aqua; */
 }
 .nav-links{
-    width: 65%;
+    width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

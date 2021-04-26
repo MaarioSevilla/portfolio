@@ -1,0 +1,15 @@
+.safearea{
+    padding-top: 70px;
+}
+.fcontenedor{
+    width: 55%;
+    border-radius: 12px;
+    margin: auto;
+    background-color: seashell;
+    padding: 3% 4%;
+}
+.textCenter{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
