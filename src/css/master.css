@@ -122,6 +122,17 @@ h1{
 }
 
 
+/* efecto desvanecimiento */
+.left-55-efect{
+    width: 55%;
+    height: 100px;
+    background-image: linear-gradient( #FAFAFA, #fff 10%);
+}
+.right-45-efect{
+    width: 45%;
+    background-image: linear-gradient( black, #fff 99%);
+}
+
 
 .s{
     padding-top: 4%;
@@ -146,10 +157,27 @@ h1{
 }
 .s2_rowR{
     width: 40%;
+    display: flex;
+    justify-content:flex-end;
 }
-.img-40{
-    width: 100%;
+.img-movil{
+    width: 50%;
     height: auto;
+    border-radius: 25px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.logos li{
+    display: inline-block;
+    margin: 5px 13px;
+}
+.logos li img{
+    height: 140px;
+    width: auto;
+    background-color: #FAFAFD;
+    border-radius: 12px;
 }
 
 .s2__btn-fl{
