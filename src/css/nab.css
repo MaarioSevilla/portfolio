@@ -47,6 +47,17 @@ ul{
     }
 }
 
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.mainlogo{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
 .nav-content{
     display: flex;
     max-width: 88%;
