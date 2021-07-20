@@ -60,6 +60,8 @@ h1{
 }
 .left-55-p{
     margin: 3% 0px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* boton y efecto */
@@ -110,7 +112,7 @@ h1{
     position: relative;
     width: 45%;
     height: 57vw;
-    background-color: black;
+    background-color: white;
 }
 .circle-degraded{
     position: absolute;
@@ -151,6 +153,7 @@ h1{
 .s2__h2{
     text-align: center;
     font-size: 44px;
+    color: #1F5E80;
 }
 .s2_subtitle{
     padding-top: 4%;
@@ -160,6 +163,9 @@ h1{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.half{
+    width: 50%;
 }
 .s2_rowL{
     width: 60%;
@@ -247,4 +253,137 @@ h1{
 .from-left:hover:before,
 .from-left:hover:after {
 	width: 100%;
+}
+
+
+.gray-container{
+    background-color: #F2F2F5;
+    padding: 20px;
+    width: 96.6%;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.gray-container-half{
+    background-color: #F2F2F5;
+    padding: 20px;
+    width: 90%;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.color-special-one{
+    color: #138AA8;
+}
+
+.color-special-two{
+    color: #DE5108;
+}
+
+.color-special-blue{
+    color: #147BD2;
+}
+
+.color-special-likepink{
+    color: #E12945;
+}
+
+.back-degraded{
+    background: rgb(205,128,158);
+    background: linear-gradient(150deg, rgba(205,128,158,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.ul-horizontal{
+    display: flex;
+    justify-content: center;
+}
+.ul-horizontal li {
+    display: inline-block;
+    margin-left: 20px;
+    width: 200px;
+}
+.ul-horizontal div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul-horizontal img {
+    width: 100px;
+    text-align: center;
+}
+.ul-horizontal p {
+    max-width: 140px;
+    text-align: center;
+}
+
+
+.small-circle{
+    width: 120px;
+    height: 120px;
+}
+.sizeBox{
+    height: 350px;
+}
+.box-relative{
+    position: relative;
+}
+.box-middle-absolute{
+    position: absolute;
+    top: 26%;
+    left: 39%;
+}
+.box-middle-absolute-firebase{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+}
+.box-middle-absolute-mbd{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+.box-middle-absolute-sql{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.fake-modal{
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgb(250,245,209);
+    background: linear-gradient(144deg, rgba(250,245,209,1) 17%, rgba(253,45,45,1) 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 19px;
+    transition: all 1.5s;
+}
+
+.fake-modal_butoon{
+    position: absolute;
+    bottom: 4%;
+    left: 1.5%;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 39px;
+    width: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.5s;
+    font-size: 25px;
+    z-index: 9;
+}
+
+.fake-modal_butoon:hover{
+    opacity: .8;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.showfakemodal{
+    display: inline;
+    transition: all 1.5s;
 }

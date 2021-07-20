@@ -52,11 +52,11 @@ ul{
     align-items: center;
 }
 
-.mainlogo{
-    height: 18px;
-    width: 18px;
+/* .mainlogo{
+    height: 34px;
+    width: 34px;
     border-radius: 50%;
-}
+} */
 
 .nav-content{
     display: flex;
